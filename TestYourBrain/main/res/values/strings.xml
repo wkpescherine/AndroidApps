@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestYourBrain</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_selection_screen">SelectionScreen</string>
+    <string name="title_activity_subject_selection">SubjectSelection</string>
+    <string name="title_activity_igh_scores">ighScores</string>
+    <string name="title_activity_full_challenge">FullChallenge</string>
+    <string name="title_activity_rules">Rules</string>
+</resources>
