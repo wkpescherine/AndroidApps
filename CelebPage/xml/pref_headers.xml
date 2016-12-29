@@ -1,0 +1,40 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+    <header
+        android:icon="@drawable/accountheader"/>
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/title_activity_log_in" />
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_create_account" />
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/title_activity_log_out" />
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$NotificationPreferenceFragment"
+        android:title="@string/title_activity_change_pass" />
+
+    <header
+        android:icon="@drawable/accountheader"/>
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$NotificationPreferenceFragment"
+        android:title="@string/title_activity_facebook" />
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$NotificationPreferenceFragment"
+        android:title="@string/title_activity_twitter" />
+
+    <header
+        android:icon="@drawable/accountheader"/>
+
+    <header
+        android:fragment="com.example.wkpescherine.celebpage.SettingsActivity$DataSyncPreferenceFragment"
+        android:title="@string/title_activity_push_notif" />
+</preference-headers>

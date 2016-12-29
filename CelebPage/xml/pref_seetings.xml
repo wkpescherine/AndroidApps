@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <Preference
+            android:title="">
+        </Preference>
+
+        <Preference
+            android:title="">
+        </Preference>
+
+        <Preference
+            android:title="SIGN IN">
+            <intent android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.wkpescherine.celebpage"
+                android:targetClass="com.example.wkpescherine.celebpage.LogIn"/>
+        </Preference>
+
+        <Preference
+            android:title="CREATE ACCOUNT">
+            <intent android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.wkpescherine.celebpage"
+                android:targetClass="com.example.wkpescherine.celebpage.CreateAccount"/>
+        </Preference>
+
+        <Preference
+            android:title="LOGOUT">
+        </Preference>
+
+        <Preference
+            android:title="CHANGE PASSWORD">
+             <intent android:action="android.intent.action.VIEW"
+                 android:targetPackage="com.example.wkpescherine.celebpage"
+                 android:targetClass="com.example.wkpescherine.celebpage.ResetPassword"/>
+        </Preference>
+
+        <Preference
+            android:title="">
+        </Preference>
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="facebook_switch"
+            android:title="@string/title_activity_facebook" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="twitter_switch"
+            android:title="@string/title_activity_twitter" />
+
+        <Preference
+            android:title="">
+        </Preference>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="Push_Notification"
+            android:title="PUSH NOTIFICATIONS">
+        </SwitchPreference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
