@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wkpescherine.celebpage.MyFeeds"
+    tools:showIn="@layout/activity_my_feeds"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="MY FEEDS"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="130dp"
+        android:background="#5fa5cc"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+        <ImageButton
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/black_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#fff"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Search"
+            android:background="#fff"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#936"
+        android:text="My Feeds"
+        android:textColor="#fff"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <ImageView
+            android:paddingLeft="10dp"
+            android:src="@drawable/cb_mini"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:paddingTop="13dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name here"
+            android:textSize="18dp"
+            android:textColor="#000"/>
+        <ImageView
+            android:paddingTop="6dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/checkmark"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        </LinearLayout>
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#936"
+        android:text="All Feeds"
+        android:textColor="#fff"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <ImageView
+            android:paddingLeft="10dp"
+            android:src="@drawable/cb_mini"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+        <TextView
+            android:paddingTop="13dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name here"
+            android:textSize="18dp"
+            android:textColor="#000"/>
+        <ImageView
+            android:paddingTop="6dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/blueadd_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

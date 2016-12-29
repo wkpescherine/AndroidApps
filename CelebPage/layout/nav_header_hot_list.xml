@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="#5fa5cc"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/mainheader"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/cb_mini"/>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/homeImg"
+            android:layout_marginLeft="20dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@id/mainheader"
+            android:background="@drawable/home"
+            android:onClick="onClickMyPage"/>
+
+        <TextView
+            android:id="@+id/homeText"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mainheader"
+            android:layout_below="@id/homeImg"
+            android:text="My Page"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <ImageView
+            android:id="@+id/settingsImg"
+            android:layout_marginLeft="20dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@id/mainheader"
+            android:layout_below="@id/homeText"
+            android:background="@drawable/settings"
+            android:onClick="onClickSettings"/>
+
+        <TextView
+            android:id="@+id/settingText"
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mainheader"
+            android:layout_below="@id/settingsImg"
+            android:text="Settings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <ImageView
+            android:id="@+id/FBImg"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="21dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@id/mainheader"
+            android:layout_below="@id/settingText"
+            android:background="@drawable/fb_icon"/>
+
+        <TextView
+            android:id="@+id/fbText"
+            android:layout_marginLeft="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mainheader"
+            android:layout_below="@id/FBImg"
+            android:text="Facebook"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </LinearLayout>
+</LinearLayout>

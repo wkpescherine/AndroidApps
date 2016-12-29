@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wkpescherine.celebpage.Videos"
+    tools:showIn="@layout/activity_videos"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5fa5cc"
+        android:text="VIDEOS"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#000"/>
+    // This is a video for later https://www.youtube.com/watch?v=knEG1tNz0d8.
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@drawable/like_button"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <ImageView
+            android:background="@drawable/share_button"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"  />
+
+        <ImageView
+            android:background="@drawable/comments_button"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="onClickComments"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:background="#ccc"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Artist Name"
+        android:textSize="32dp"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Date time and who published it"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="This is where information about the song and /or artist will go."
+        android:textSize="16dp"/>
+
+</LinearLayout>
