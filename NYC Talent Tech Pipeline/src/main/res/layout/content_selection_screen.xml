@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_selection_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.moat279.ttp.SelectionScreen"
+    tools:showIn="@layout/activity_selection_screen"
+    android:orientation="vertical"
+    android:background="#01afeb">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/ttptitlebar"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Visit ttp.nyc"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:onClick="TTPwebsite"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="NYC Tech News"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="How I recruit the absolutely best atlent for my start up"
+        android:textColor="#fff"
+        android:onClick="News1"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="NYC Startup bowmo Brings Recruiting Back to Earth Powered by Machine Learning"
+        android:textColor="#fff"
+        android:onClick="News2"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="NFTE and NYCEDC Pioneer in Building Tech Entrepreneurship Program for High School Students"
+        android:textColor="#fff"
+        android:onClick="News3"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="This NYC Startup Just Raised $3.5M To Bring Location Data to Your Marketing Efforts"
+        android:textColor="#fff"
+        android:onClick="News4"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="5dp"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="11dp"
+                android:layout_height="75dp"
+                android:layout_width="75dp"
+                android:background="@drawable/mentorship"
+                android:onClick="MentorSection"
+                />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="11dp"
+                android:layout_height="75dp"
+                android:layout_width="75dp"
+                android:background="@drawable/tutoriallesson"
+                android:onClick="TutorialLessonSection"
+                />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="11dp"
+                android:layout_height="75dp"
+                android:layout_width="75dp"
+                android:background="@drawable/videolesson"
+                android:onClick="VideoLessonSection"
+                />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="11dp"
+                android:layout_height="75dp"
+                android:layout_width="75dp"
+                android:background="@drawable/jobposting"
+                android:onClick="JobPosting"
+                />
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="Video Lessons"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:onClick="tutorialSection"/>
+
+</LinearLayout>

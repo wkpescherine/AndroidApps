@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_tutorial_lesson_section"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.moat279.ttp.TutorialLessonSection"
+    tools:showIn="@layout/activity_tutorial_lesson_section"
+    android:orientation="vertical"
+    android:background="#01afeb">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/pipe"
+        android:textSize="20dp"
+        android:text="C++ Lesson 1"
+        android:layout_gravity="bottom"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:onClick="TutorialLesson"
+        />
+
+</LinearLayout>

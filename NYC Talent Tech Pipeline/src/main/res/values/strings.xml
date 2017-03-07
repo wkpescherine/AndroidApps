@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TTP</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_selection_screen">SelectionScreen</string>
+    <string name="title_activity_ttpwebsite">TTPwebsite</string>
+    <string name="title_activity_mentor_section">MentorSection</string>
+    <string name="title_activity_tutorial_section">TutorialSection</string>
+    <string name="title_activity_video_tut">VideoTut</string>
+    <string name="title_activity_lesson_tut">LessonTut</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_job_postings">JobPostings</string>
+    <string name="title_activity_video_tutorials">VideoTutorials</string>
+    <string name="title_activity_tutorial_lesson_section">TutorialLessonSection</string>
+</resources>
